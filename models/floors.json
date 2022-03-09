@@ -1,0 +1,22 @@
+[
+    {
+        "id" : 1,
+        "name" : "firstFloor",
+        "isActive" : true
+    },
+    {
+        "id" : 2,
+        "name" : "secondFloor",
+        "isActive" : true
+    },
+    {
+        "id" : 3,
+        "name" : "thirdFloor",
+        "isActive" : true
+    },
+    {
+        "id" : 4,
+        "name" : "fourthFloor",
+        "isActive" : false
+    }
+]

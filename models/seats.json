@@ -1,0 +1,29 @@
+[{
+    "id" : 1,
+    "floorId" : 1,
+    "isActive" : true,
+    "booked" : true,
+    "blocked" : false
+},
+{
+    "id" : 2,
+    "floorId" : 1,
+    "isActive" : true,
+    "booked" : false,
+    "blocked" : false
+},
+{
+    "id" : 3,
+    "floorId" : 1,
+    "isActive" : true,
+    "booked" : false,
+    "blocked" : false
+},
+{
+    "id" : 4,
+    "floorId" : 1,
+    "isActive" : true,
+    "booked" : false,
+    "blocked" : false
+}
+]

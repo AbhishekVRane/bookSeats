@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "2eebf575-9b6b-4c44-901b-25c221c28fc6",
+		"name": "bookSeats",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "bookSeats",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"seats\" : [2,3]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/vizmo/book/bookSeats",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"vizmo",
+						"book",
+						"bookSeats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "blockSeats",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"seats\" : [2,3]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/vizmo/book/bookSeats",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"vizmo",
+						"book",
+						"bookSeats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getSeatsByFloor",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"seats\" : [2,3]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/vizmo/book/bookSeats",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"vizmo",
+						"book",
+						"bookSeats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getFloors",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"seats\" : [2,3]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/vizmo/book/getFloors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"vizmo",
+						"book",
+						"getFloors"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
